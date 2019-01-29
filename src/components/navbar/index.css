@@ -1,0 +1,40 @@
+
+
+
+.box {
+    overflow: hidden;
+    background-color: grey;
+   
+    }
+  
+  .box a {
+      float: left;
+      width: 25%; 
+      height: 5px;
+      padding: 20px;
+      
+    }
+  
+  .box a:hover {
+      background-color:royalblue;
+      color: black;
+  
+    }
+    
+  .tengah{
+      color: aliceblue;
+      /* font-weight:1000; */
+      align-items: center;
+    }
+  
+  
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  
+  * {
+      box-sizing: border-box;
+      
+  }
