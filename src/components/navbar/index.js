@@ -8,15 +8,21 @@ import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Login from "../login";
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
     return (
       <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          
+          <Link to ="/">
           <a class="navbar-brand" href="#">
             9GAG
           </a>
+          </Link>
+
+          {/* <Link to= "/">9GAG</Link> */}
           <button
             class="navbar-toggler"
             type="button"
@@ -27,7 +33,7 @@ class NavBar extends Component {
           </button>
           <div class="collapse navbar-collapse" id="navbarNav1">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#">
                   Get Apps!!
                 </a>

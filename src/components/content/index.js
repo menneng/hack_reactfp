@@ -8,29 +8,54 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 class Content extends Component {
   render() {
     return (
-      <body>      
+      <body>
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
-              <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
+            <div class="col-md-8 text-center ">
+              <div class="media-body">
+                <h3>
+                  <a href="#" class="text-info">
+                    Game of Thrones
+                  </a>
+                </h3>
+                Game of Thrones sculpture on pencil tip by Salavat Fidai
+                <div class="pt-4">
+                  <a href="#" class="text-info mr-2">
+                    <i class="fab fa-facebook fa-2x" />
+                  </a>
+                  <a href="#" class="text-info mr-2">
+                    <i class="fab fa-twitter fa-2x" />
+                  </a>
+                  <a href="#" class="text-info mr-2">
+                    <i class="fab fa-instagram fa-2x" />
+                  </a>
+                  <a href="#" class="text-info mr-2">
+                    <i class="fab fa-google-plus fa-2x" />
+                  </a>
+                  <a href="#" class="text-info mr-2">
+                    <i class="fab fa-github fa-2x" />
+                  </a>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/FKkPWdgP3vg"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
+                </div>
+              </div>
+              <hr />
 
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people1.jpg') } />
-
+              <div class="media py-8">
                 <div class="media-body">
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      CatPusic
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
+                  Cat can't stop sneezing by CatPusic
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -48,30 +73,65 @@ class Content extends Component {
                       <i class="fab fa-github fa-2x" />
                     </a>
                   </div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ARaPolk70XU"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
                 </div>
               </div>
               <hr />
 
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people2.jpg') } />
-
                 <div class="media-body">
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      Goldens competing
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
+                  Goldens competing for attention by Charlie The Golden
+                  <div class="pt-4">
+                    <a href="#" class="text-info mr-2">
+                      <i class="fab fa-facebook fa-2x" />
+                    </a>
+                    <a href="#" class="text-info mr-2">
+                      <i class="fab fa-twitter fa-2x" />
+                    </a>
+                    <a href="#" class="text-info mr-2">
+                      <i class="fab fa-instagram fa-2x" />
+                    </a>
+                    <a href="#" class="text-info mr-2">
+                      Cras purus odio, vestibulum in vulputate at, tempus
+                      viverra turpis.
+                      <i class="fab fa-google-plus fa-2x" />
+                    </a>
+                    <a href="#" class="text-info mr-2">
+                      <i class="fab fa-github fa-2x" />
+                    </a>
+                  </div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/RbHXSPJmUTE"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
+                </div>
+              </div>
+              <hr />
+
+              <div class="media py-4">
+                <div class="media-body">
+                  <h3>
+                    <a href="#" class="text-info">
+                      Sweet person
+                    </a>
+                  </h3>
+                  That sweet person who always brings you food by Tu and Ted
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -89,31 +149,27 @@ class Content extends Component {
                       <i class="fab fa-github fa-2x" />
                     </a>
                   </div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/A7re3r46zrQ"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
                 </div>
               </div>
               <hr />
 
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people3.jpg') } />
-
                 <div class="media-body">
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      Super Smash Bros
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
+                  Super Smash Bros. Ultimate gameplay in real life by Ka-Kool
+                  Kid
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -131,32 +187,26 @@ class Content extends Component {
                       <i class="fab fa-github fa-2x" />
                     </a>
                   </div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/SJaLwcfzHyE"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
                 </div>
               </div>
               <hr />
 
-
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people4.jpg') } />
-
                 <div class="media-body">
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                    Dog vs wind
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
+                  Dog vs wind by cartercanines
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -174,104 +224,17 @@ class Content extends Component {
                       <i class="fab fa-github fa-2x" />
                     </a>
                   </div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xqVBVtLyf5U"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  />
                 </div>
               </div>
               <hr />
-
-
-
-
-
-              <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people5.jpg') } />
-
-                <div class="media-body">
-                  <h3>
-                    <a href="#" class="text-info">
-                      Teguh Mulyono
-                    </a>
-                  </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
-                  <div class="pt-4">
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-facebook fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-twitter fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-instagram fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-google-plus fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-github fa-2x" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <hr />
-
-
-
-              <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/people6.jpg') } />
-
-                <div class="media-body">
-                  <h3>
-                    <a href="#" class="text-info">
-                      Teguh Mulyono
-                    </a>
-                  </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
-                  <div class="pt-4">
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-facebook fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-twitter fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-instagram fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-google-plus fa-2x" />
-                    </a>
-                    <a href="#" class="text-info mr-2">
-                      <i class="fab fa-github fa-2x" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <hr />
-
-
-
-
-
-
-
-
-
             </div>
           </div>
         </div>

@@ -8,29 +8,26 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 class HotContent extends Component {
   render() {
     return (
-      <body>      
+      <body>
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12 text-center">
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image1.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/C-2_Y2Quooo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      How to control your girlfriend during traveling by
+                      lovestoryhk
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -52,26 +49,22 @@ class HotContent extends Component {
               </div>
               <hr />
 
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image2.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/kd9Zz08d_RA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      When there is only 1 minute left to finish the test by
+                      Julia Razumova
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -93,27 +86,21 @@ class HotContent extends Component {
               </div>
               <hr />
 
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image3.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/vr3YXMELb4M"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      Draw me like one of your French girls by OwlKitty
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -135,28 +122,23 @@ class HotContent extends Component {
               </div>
               <hr />
 
-
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image4.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/Cszc3z1sv40"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      Who also wants to tickle this little potato? by Lychee The
+                      Corgi
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
+
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -178,29 +160,21 @@ class HotContent extends Component {
               </div>
               <hr />
 
-
-
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image5.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/Hyvn9R4wcLc"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                      Human ATM by CurlyKidlife
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -222,27 +196,21 @@ class HotContent extends Component {
               </div>
               <hr />
 
-
-
               <div class="media py-4">
-                {/* <img
-                  class="mr-3 img-thumbnail img-fluid"
-                  src="../../img/people9.jpg"
-                /> */}
-
-<img class="mr-3 img-thumbnail img-fluid" src={ require('../../img/full-image6.jpg') } />
-
                 <div class="media-body">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/VHp1hkJ7hJo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  />
                   <h3>
                     <a href="#" class="text-info">
-                      Teguh Mulyono
+                    Backflip in high heels by Jiemba Sands
                     </a>
                   </h3>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi vulputate fringilla. Donec lacinia congue felis in
-                  faucibus.
                   <div class="pt-4">
                     <a href="#" class="text-info mr-2">
                       <i class="fab fa-facebook fa-2x" />
@@ -263,15 +231,6 @@ class HotContent extends Component {
                 </div>
               </div>
               <hr />
-
-
-
-
-
-
-
-
-
             </div>
           </div>
         </div>
