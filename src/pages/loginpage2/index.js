@@ -3,7 +3,7 @@ import SignIn from "../../components/signin";
 import NavBar from "../../components/navbar";
 import Popular from "../../components/popular";
 import Sections from "../../components/sections";
-import Selamat from "../../components/selamat";
+import SignIn2 from "../../components/signin2";
 
 import {
   BrowserRouter as Router,
@@ -14,20 +14,6 @@ import {
   // etc.
 } from "react-router-dom";
 
-const Sdatang = ({ user, onSignOut }) => {
-  // This is a dumb "stateless" component
-  return (
-    <div>
-      Welcome <strong>{user.username}</strong>!
-      <a href="javascript:;" onClick={onSignOut}>
-        Sign out
-      </a>
-      <br />
-      <Redirect to="/pages/favorit" />
-    </div>
-  );
-};
-
 class LoginPage extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +21,9 @@ class LoginPage extends React.Component {
     this.state = {
       user: null
     };
+
+  this.signIn = this.signIn.bind(this)
+  this.signOut = this.signOut.bind(this)
   }
 
   // App "actions" (functions that modify state)
@@ -84,13 +73,7 @@ class LoginPage extends React.Component {
               <h1>SILAHKAN LOGIN!</h1>
 
               <br />
-              {this.state.user ? (
-                <Sdatang
-                  user={this.state.user}
-                  onSignOut={this.signOut.bind(this)}
-                />
-              ) : (
-                <SignIn onSignIn={this.signIn.bind(this)} />
+                <SignIn2 onSignIn={this.signIn} />
               )}
             </div>
           </div>
